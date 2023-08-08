@@ -1,0 +1,8 @@
+
+npm i @babel/plugin-proposal-private-property-in-object
+npm install react-scripts@latest
+
+npm install react-chartjs-2 chart.js
+
+npm install
+
