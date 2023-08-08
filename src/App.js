@@ -6,7 +6,7 @@ import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart";
 
 function App() {
-  const [userData, setUserData] = useState({
+  const [userData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
       {
