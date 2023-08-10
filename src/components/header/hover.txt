@@ -1,0 +1,17 @@
+.nav_link::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    position: absolute;
+    bottom: -5px; /* Adjust this value to position the underline */
+    left: 0;
+    transform-origin: left;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.nav_link.active-link::before,
+.nav_link:hover::before {
+    width: 100%;
+    background-color: var(--title-color-dark);
+}
