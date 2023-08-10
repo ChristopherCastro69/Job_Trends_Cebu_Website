@@ -29,7 +29,7 @@ const Home = () => {
         <div className="home_content grid">
             
             Hello World
-        <div style={{ width: 700 }}>
+        <div style={{ width: 1000 }}>
           <BarChart chartData={userData} />
         </div>
         </div>
